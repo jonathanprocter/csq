@@ -1,0 +1,22 @@
+{
+  "schemas": [
+    {
+      "id": "disconnection",
+      "name": "Disconnection/Rejection",
+      "description": "Difficulty forming secure attachments or expecting others to be unavailable.",
+      "questions": [
+        {"id": "q1", "schema_id": "disconnection", "text": "I find it hard to trust my partner."},
+        {"id": "q2", "schema_id": "disconnection", "text": "I worry that my partner will leave me."}
+      ]
+    },
+    {
+      "id": "impaired_autonomy",
+      "name": "Impaired Autonomy",
+      "description": "Belief that one cannot handle everyday life independently.",
+      "questions": [
+        {"id": "q3", "schema_id": "impaired_autonomy", "text": "I rely on my partner to handle important tasks."},
+        {"id": "q4", "schema_id": "impaired_autonomy", "text": "I feel helpless without my partner's support."}
+      ]
+    }
+  ]
+}
