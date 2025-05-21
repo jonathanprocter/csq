@@ -1,0 +1,8 @@
+{
+  "name": "csq",
+  "version": "1.0.0",
+  "description": "Couples Schema Questionnaire",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
