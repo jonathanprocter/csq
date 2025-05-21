@@ -6,7 +6,15 @@
       "description": "Difficulty forming secure attachments or expecting others to be unavailable.",
       "questions": [
         {"id": "q1", "schema_id": "disconnection", "text": "I find it hard to trust my partner."},
-        {"id": "q2", "schema_id": "disconnection", "text": "I worry that my partner will leave me."}
+        {"id": "q2", "schema_id": "disconnection", "text": "I worry that my partner will leave me."},
+        {"id": "q3", "schema_id": "disconnection", "text": "I feel distant from my partner even when we are together."},
+        {"id": "q4", "schema_id": "disconnection", "text": "I think my partner doesn't really understand me."},
+        {"id": "q5", "schema_id": "disconnection", "text": "I often feel alone in this relationship."},
+        {"id": "q6", "schema_id": "disconnection", "text": "I expect rejection from my partner."},
+        {"id": "q7", "schema_id": "disconnection", "text": "I find it hard to rely on my partner for emotional support."},
+        {"id": "q8", "schema_id": "disconnection", "text": "I keep my guard up because I fear being hurt."},
+        {"id": "q9", "schema_id": "disconnection", "text": "I feel misunderstood by my partner."},
+        {"id": "q10", "schema_id": "disconnection", "text": "I am afraid of becoming too close to my partner."}
       ]
     },
     {
@@ -14,8 +22,152 @@
       "name": "Impaired Autonomy",
       "description": "Belief that one cannot handle everyday life independently.",
       "questions": [
-        {"id": "q3", "schema_id": "impaired_autonomy", "text": "I rely on my partner to handle important tasks."},
-        {"id": "q4", "schema_id": "impaired_autonomy", "text": "I feel helpless without my partner's support."}
+        {"id": "q11", "schema_id": "impaired_autonomy", "text": "I rely on my partner to handle important tasks."},
+        {"id": "q12", "schema_id": "impaired_autonomy", "text": "I feel helpless without my partner's support."},
+        {"id": "q13", "schema_id": "impaired_autonomy", "text": "I doubt my ability to function on my own."},
+        {"id": "q14", "schema_id": "impaired_autonomy", "text": "I need constant reassurance from my partner."},
+        {"id": "q15", "schema_id": "impaired_autonomy", "text": "I feel anxious when I have to do things independently."},
+        {"id": "q16", "schema_id": "impaired_autonomy", "text": "I prefer my partner to make decisions for me."},
+        {"id": "q17", "schema_id": "impaired_autonomy", "text": "I can't imagine living without my partner."},
+        {"id": "q18", "schema_id": "impaired_autonomy", "text": "I feel incapable when I'm not with my partner."},
+        {"id": "q19", "schema_id": "impaired_autonomy", "text": "I avoid taking risks unless my partner approves."},
+        {"id": "q20", "schema_id": "impaired_autonomy", "text": "I feel lost when my partner is not around."}
+      ]
+    },
+    {
+      "id": "abandonment",
+      "name": "Abandonment/Instability",
+      "description": "Fear that loved ones will leave or cannot provide emotional support.",
+      "questions": [
+        {"id": "q21", "schema_id": "abandonment", "text": "I worry my partner will suddenly leave me."},
+        {"id": "q22", "schema_id": "abandonment", "text": "I feel anxious when my partner is away."},
+        {"id": "q23", "schema_id": "abandonment", "text": "I think my partner will find someone better."},
+        {"id": "q24", "schema_id": "abandonment", "text": "I fear being left alone."},
+        {"id": "q25", "schema_id": "abandonment", "text": "I need constant contact with my partner to feel secure."},
+        {"id": "q26", "schema_id": "abandonment", "text": "I feel panicked if my partner doesn't reply quickly."},
+        {"id": "q27", "schema_id": "abandonment", "text": "I worry my partner's feelings for me will fade."},
+        {"id": "q28", "schema_id": "abandonment", "text": "I think my partner will abandon me when I need them most."},
+        {"id": "q29", "schema_id": "abandonment", "text": "I feel desperate to hold on to my partner."},
+        {"id": "q30", "schema_id": "abandonment", "text": "I often check in with my partner to make sure they aren't leaving."}
+      ]
+    },
+    {
+      "id": "mistrust_abuse",
+      "name": "Mistrust/Abuse",
+      "description": "Expectation that others will hurt or take advantage of you.",
+      "questions": [
+        {"id": "q31", "schema_id": "mistrust_abuse", "text": "I suspect my partner has hidden motives."},
+        {"id": "q32", "schema_id": "mistrust_abuse", "text": "I wonder if my partner is lying to me."},
+        {"id": "q33", "schema_id": "mistrust_abuse", "text": "I feel my partner might betray me."},
+        {"id": "q34", "schema_id": "mistrust_abuse", "text": "I worry that trusting my partner will lead to pain."},
+        {"id": "q35", "schema_id": "mistrust_abuse", "text": "I think my partner wants to control me."},
+        {"id": "q36", "schema_id": "mistrust_abuse", "text": "I question my partner's intentions often."},
+        {"id": "q37", "schema_id": "mistrust_abuse", "text": "I feel that my partner is manipulating me."},
+        {"id": "q38", "schema_id": "mistrust_abuse", "text": "I expect my partner to hurt me emotionally."},
+        {"id": "q39", "schema_id": "mistrust_abuse", "text": "I keep secrets from my partner to protect myself."},
+        {"id": "q40", "schema_id": "mistrust_abuse", "text": "I think my partner might cheat on me."}
+      ]
+    },
+    {
+      "id": "emotional_deprivation",
+      "name": "Emotional Deprivation",
+      "description": "Belief that emotional support will not be adequately provided by others.",
+      "questions": [
+        {"id": "q41", "schema_id": "emotional_deprivation", "text": "I don't get the affection I need from my partner."},
+        {"id": "q42", "schema_id": "emotional_deprivation", "text": "I often feel emotionally deprived in this relationship."},
+        {"id": "q43", "schema_id": "emotional_deprivation", "text": "I feel my partner doesn't listen to me."},
+        {"id": "q44", "schema_id": "emotional_deprivation", "text": "I wish my partner were more supportive."},
+        {"id": "q45", "schema_id": "emotional_deprivation", "text": "I feel lonely even when I'm with my partner."},
+        {"id": "q46", "schema_id": "emotional_deprivation", "text": "I think my partner doesn't care about my feelings."},
+        {"id": "q47", "schema_id": "emotional_deprivation", "text": "I don't feel nurtured by my partner."},
+        {"id": "q48", "schema_id": "emotional_deprivation", "text": "I believe my partner is emotionally unavailable."},
+        {"id": "q49", "schema_id": "emotional_deprivation", "text": "I feel unappreciated by my partner."},
+        {"id": "q50", "schema_id": "emotional_deprivation", "text": "I rarely feel truly understood by my partner."}
+      ]
+    },
+    {
+      "id": "defectiveness_shame",
+      "name": "Defectiveness/Shame",
+      "description": "Feeling inherently flawed or unworthy of love.",
+      "questions": [
+        {"id": "q51", "schema_id": "defectiveness_shame", "text": "I feel unworthy of my partner's love."},
+        {"id": "q52", "schema_id": "defectiveness_shame", "text": "I am ashamed of my shortcomings."},
+        {"id": "q53", "schema_id": "defectiveness_shame", "text": "I think my partner would reject me if they knew the real me."},
+        {"id": "q54", "schema_id": "defectiveness_shame", "text": "I often criticize myself in front of my partner."},
+        {"id": "q55", "schema_id": "defectiveness_shame", "text": "I feel inferior to my partner."},
+        {"id": "q56", "schema_id": "defectiveness_shame", "text": "I hide my flaws from my partner."},
+        {"id": "q57", "schema_id": "defectiveness_shame", "text": "I don't deserve a loving relationship."},
+        {"id": "q58", "schema_id": "defectiveness_shame", "text": "I think my partner is disappointed in me."},
+        {"id": "q59", "schema_id": "defectiveness_shame", "text": "I feel embarrassed about who I am."},
+        {"id": "q60", "schema_id": "defectiveness_shame", "text": "I am afraid my partner will discover my faults."}
+      ]
+    },
+    {
+      "id": "social_isolation",
+      "name": "Social Isolation/Alienation",
+      "description": "Feeling different from others or not fitting in socially.",
+      "questions": [
+        {"id": "q61", "schema_id": "social_isolation", "text": "I feel isolated from other couples."},
+        {"id": "q62", "schema_id": "social_isolation", "text": "I think we don't fit in with our friends."},
+        {"id": "q63", "schema_id": "social_isolation", "text": "I feel different from other people in relationships."},
+        {"id": "q64", "schema_id": "social_isolation", "text": "I avoid social situations with my partner."},
+        {"id": "q65", "schema_id": "social_isolation", "text": "I feel we are outsiders in social settings."},
+        {"id": "q66", "schema_id": "social_isolation", "text": "I believe others judge our relationship."},
+        {"id": "q67", "schema_id": "social_isolation", "text": "I feel uncomfortable introducing my partner to others."},
+        {"id": "q68", "schema_id": "social_isolation", "text": "I think people don't understand our relationship."},
+        {"id": "q69", "schema_id": "social_isolation", "text": "I feel disconnected from community."},
+        {"id": "q70", "schema_id": "social_isolation", "text": "I often withdraw from social gatherings."}
+      ]
+    },
+    {
+      "id": "failure",
+      "name": "Failure",
+      "description": "Belief that one has failed or will fail in important areas of life.",
+      "questions": [
+        {"id": "q71", "schema_id": "failure", "text": "I feel like a failure in this relationship."},
+        {"id": "q72", "schema_id": "failure", "text": "I think I disappoint my partner."},
+        {"id": "q73", "schema_id": "failure", "text": "I doubt I can meet my partner's expectations."},
+        {"id": "q74", "schema_id": "failure", "text": "I feel inadequate compared to my partner."},
+        {"id": "q75", "schema_id": "failure", "text": "I believe I can't do anything right for my partner."},
+        {"id": "q76", "schema_id": "failure", "text": "I worry that my partner will see me as a failure."},
+        {"id": "q77", "schema_id": "failure", "text": "I focus on my mistakes in this relationship."},
+        {"id": "q78", "schema_id": "failure", "text": "I feel incompetent in our relationship."},
+        {"id": "q79", "schema_id": "failure", "text": "I think I'm not good enough for my partner."},
+        {"id": "q80", "schema_id": "failure", "text": "I feel I keep failing my partner's expectations."}
+      ]
+    },
+    {
+      "id": "subjugation",
+      "name": "Subjugation",
+      "description": "Giving up one's own needs or emotions to please others.",
+      "questions": [
+        {"id": "q81", "schema_id": "subjugation", "text": "I often give in to my partner to keep the peace."},
+        {"id": "q82", "schema_id": "subjugation", "text": "I put my partner's needs before my own."},
+        {"id": "q83", "schema_id": "subjugation", "text": "I feel guilty if I disagree with my partner."},
+        {"id": "q84", "schema_id": "subjugation", "text": "I rarely express my own desires."},
+        {"id": "q85", "schema_id": "subjugation", "text": "I feel controlled by my partner."},
+        {"id": "q86", "schema_id": "subjugation", "text": "I worry that asserting myself will upset my partner."},
+        {"id": "q87", "schema_id": "subjugation", "text": "I suppress my feelings to please my partner."},
+        {"id": "q88", "schema_id": "subjugation", "text": "I feel pressured to do things my partner's way."},
+        {"id": "q89", "schema_id": "subjugation", "text": "I avoid conflict by giving in."},
+        {"id": "q90", "schema_id": "subjugation", "text": "I often neglect my needs in this relationship."}
+      ]
+    },
+    {
+      "id": "unrelenting_standards",
+      "name": "Unrelenting Standards",
+      "description": "Striving to meet excessively high internalized standards to avoid criticism.",
+      "questions": [
+        {"id": "q91", "schema_id": "unrelenting_standards", "text": "I set very high expectations for our relationship."},
+        {"id": "q92", "schema_id": "unrelenting_standards", "text": "I feel dissatisfied when things aren't perfect."},
+        {"id": "q93", "schema_id": "unrelenting_standards", "text": "I push my partner to meet my high standards."},
+        {"id": "q94", "schema_id": "unrelenting_standards", "text": "I get frustrated when my partner makes mistakes."},
+        {"id": "q95", "schema_id": "unrelenting_standards", "text": "I often feel we should be doing better as a couple."},
+        {"id": "q96", "schema_id": "unrelenting_standards", "text": "I have a hard time relaxing in this relationship."},
+        {"id": "q97", "schema_id": "unrelenting_standards", "text": "I expect my partner to meet my standards at all times."},
+        {"id": "q98", "schema_id": "unrelenting_standards", "text": "I criticize myself when I fall short."},
+        {"id": "q99", "schema_id": "unrelenting_standards", "text": "I feel pressured to maintain a perfect relationship."},
+        {"id": "q100", "schema_id": "unrelenting_standards", "text": "I worry that any flaw will ruin our relationship."}
       ]
     }
   ]
